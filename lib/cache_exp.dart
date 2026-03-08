@@ -21,7 +21,7 @@ class _CacheExampelState extends State<CacheExampel> {
       body: Center(
         child: CachedNetworkImage(
           imageUrl: imageUrl,
-          width: 300,
+          width: 200,
           height: 300,
           fit: BoxFit.cover,
 
