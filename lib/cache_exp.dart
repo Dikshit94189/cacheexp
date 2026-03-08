@@ -22,7 +22,7 @@ class _CacheExampelState extends State<CacheExampel> {
         child: CachedNetworkImage(
           imageUrl: imageUrl,
           width: 200,
-          height: 300,
+          height: 200,
           fit: BoxFit.cover,
 
           placeholder: (context, url) =>
