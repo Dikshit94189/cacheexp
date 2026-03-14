@@ -16,7 +16,7 @@ class _CacheExampelState extends State<CacheExampel> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Offline Image Cache Example"),
+        title: Text("Cached Network image"),
       ),
       body: Center(
         child: CachedNetworkImage(
